@@ -7,49 +7,32 @@ There will be a program counter that will point to the next instruction that wil
 Further, condition bits are there which will be updated with each ALU operation such that it can be used in conditional statements.
 
 Basic Introduction:
-
 Based on Harvard Architecture
-
 It has Arithmetic and Logic Unit
-
 It has general purpose 32-bit registers for storing the data during execution time
-
 It has 32-bit address and each stores 8 bit of data
 
 
 Instruction Decoder Design:
-
 It includes these five process:
-
 Instruction fetching
-
 Instruction decoding
-
 Execution
-
 Memory Access
-
 Writing back to memory
 
 
 Instruction Format:
-
 5 bits opcode
-
 5 bits destination register location
-
 5 bits source register location
-
 16 bits Immediate values
-
 Condition bit (1 bit)
-
 Conditional Jump address (26 bits)
-
 Unconditional Jump address (27 bits)
 
 
-Result as interpretation:
+Result and interpretation:
 
 ![image](https://github.com/theiturhs/Implementation-of-Verilog-HDL-Based-32-bit-Processor/assets/96874023/1a637e00-c0b5-47a5-bba1-d088915e73c7)
 
